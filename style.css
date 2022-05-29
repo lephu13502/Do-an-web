@@ -3,7 +3,6 @@
   padding: 0
 }
 
-
 body{
   font-family: 'Roboto', Arial,  monospace;
   font-size: 16px;
@@ -17,11 +16,8 @@ body{
 
 .btn-info>a:last-child{
   margin-right: 12px;
-}
-
-
-.btn-info>a:first-child{
   font-weight: 600;
+  
 }
 
 
@@ -32,14 +28,23 @@ body{
   color: black;
 }
 
+.logo a img{
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  margin-top: 0px;
+}
 
-.info{
+/* .info{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .info h3{
   text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #303C6C;
 }
