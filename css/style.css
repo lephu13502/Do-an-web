@@ -2,8 +2,8 @@
 :root {
     --primary: #303C6C;
     --secondary: #B4DFE5;
-    --light: #EFFDF5;
-    --dark: #2B3940;
+    --light: #FBE8A6;
+    --dark: #F4976C;
 }
 
 .text-primary{
@@ -26,6 +26,10 @@
 .container-xxl{
     background-color: var(--secondary) !important;
     border-color: var(--secondary) !important;
+}
+
+.display-3{
+    color: var(--primary) !important;
 }
 
 .back-to-top {
@@ -59,9 +63,11 @@
     transition: .5s;
 }
 
-.btn.btn-primary,
-.btn.btn-secondary {
-    color: #FFFFFF;
+.btn.btn-primary{
+    color: var(--secondary) !important;
+}
+.btn.btn-secondary{
+    color: var(--primary) !important;
 }
 
 .btn-square {
@@ -122,11 +128,12 @@
     background-color: var(--secondary) !important;
     border-color: var(--secondary) !important;
 }
+
 .navbar-dark .navbar-nav .nav-link,
 .navbar-light .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: #FFFFFF;
+    color: var(--primary) !important;
     font-size: 15px;
     text-transform: uppercase;
     outline: none;
@@ -303,7 +310,7 @@
 .cat-item:hover {
     border-color: rgba(0, 0, 0, .08);
     box-shadow: none;
-    color: var(--secondary);
+    color: var(--light);
 }
 
 
