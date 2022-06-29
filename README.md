@@ -1,3 +1,1 @@
-﻿# Do-an-job-hunting HCMUS 20CLC08
-# Đồ án nhóm 7 làm về job hunting, tham khảo upwork, linkdln, itviec, ...
-# Mới làm vài trang chủ, ai rảnh ý kiến thêm sign up, log in đi, năn nỉ :)))
+
